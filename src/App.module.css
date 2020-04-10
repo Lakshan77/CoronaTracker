@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+
+    padding: 10px;
+    background: #657373;
+    width: 100%;
+    
+}
+.headerText{
+    text-align: center;
+    color: #d97d68;
+    font-size: 50px;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+.footer {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #657373;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
